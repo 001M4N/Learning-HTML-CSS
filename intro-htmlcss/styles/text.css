@@ -1,0 +1,39 @@
+p{
+    font-family: Amiri;
+}
+
+.css-lorem-ipsum-sample-text{
+    /* font-family: Arial; */
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    width: 300px;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+
+.css-second-p{
+    /* font-family: Arial; */
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    margin-top: 5px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+}
+
+.css-third-p{
+    /* font-family: Arial; */
+    font-size: 11px;
+    font-style: italic;
+}
+
+.css-underline-text{
+    text-decoration: underline;
+    transition: color 0.15s;
+}
+
+.css-underline-text:hover{
+    color: blue;
+}
