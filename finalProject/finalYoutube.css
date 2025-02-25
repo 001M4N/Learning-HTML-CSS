@@ -53,8 +53,6 @@ p{
     display: flex;
     flex-direction: row;
     flex: 0.5;
-    /* width: 475px;
-    height: 35px; */
 }
 
 .css-div-search input{
@@ -84,8 +82,10 @@ p{
 }
 
 .css-div-icon-sideBar{
-    flex: 0.03;
-    /* margin-right: 20px; */
+    flex: 0.15;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .css-div-icon-sideBar button{
@@ -93,8 +93,13 @@ p{
     height: 100%;
     width: 100%;
     border: none;
+    flex: 0.5;
 }
 
-.css-div-icon-sideBar button image{
-    object-fit: cover;
+.css-div-icon-sideBar img{
+    flex: 0.5;
+}
+
+.css-div-icon-sideBar button img{
+    height: 40px;
 }
