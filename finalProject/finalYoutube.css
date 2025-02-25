@@ -41,17 +41,18 @@ p{
 .css-div-header{
     display: flex;
     flex-direction: row;
-    border-width: 1px;
+    /* border-width: 1px;
     border-color: black;
-    border-style: solid;
-    margin-bottom: 30px ;
-    justify-content: center;
+    border-style: solid; */
+    margin-bottom: 30px;
+    height: 30px;
+    justify-content: space-between;
 }
 
 .css-div-search{
     display: flex;
     flex-direction: row;
-    flex: 1;
+    flex: 0.5;
     /* width: 475px;
     height: 35px; */
 }
@@ -70,7 +71,6 @@ p{
     border-color: gray;
     border-style: solid;
     cursor: pointer;
-    width: 20px;
     transition: background-color 0.15s;
     flex: 0.07;
 }
@@ -79,10 +79,22 @@ p{
     background-color: gray;
 }
 
-.css-div-search button image{
-    object-fit: fill;
+.css-div-search button img{
+    height: 100%;
 }
 
 .css-div-icon-sideBar{
-    
+    flex: 0.03;
+    /* margin-right: 20px; */
+}
+
+.css-div-icon-sideBar button{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.css-div-icon-sideBar button image{
+    object-fit: cover;
 }
