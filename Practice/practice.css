@@ -47,9 +47,13 @@
     justify-content: center;
     align-items: center;
 } */
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 body{
-    /* margin: 0; */
+    margin: 0;
 }
 
 .css-div-header{
@@ -58,4 +62,32 @@ body{
     align-items: center;
     height: 40px;
     background-color: rgba(136, 17, 136, 0.733);
+}
+
+.css-div-header .css-download-butt{
+    border: 1px solid white;
+    background-color: transparent;
+    margin-right: 10px;
+    padding: 10px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: background-color 0.15s;
+}
+
+.css-div-header .css-download-butt:active{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.css-search{
+    flex: 0.35;
+    height: 30px;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.css-home{
+    margin-left: 10px;
 }
