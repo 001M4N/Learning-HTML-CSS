@@ -41,18 +41,19 @@ p{
 .css-div-header{
     display: flex;
     flex-direction: row;
-    /* border-width: 1px;
-    border-color: black;
-    border-style: solid; */
     margin-bottom: 30px;
-    height: 30px;
+    height: 25px;
     justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px;
+    border-style: sold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .css-div-search{
     display: flex;
     flex-direction: row;
-    flex: 0.5;
+    flex: 0.3;
 }
 
 .css-div-search input{
@@ -63,6 +64,7 @@ p{
     padding-left: 15px;
     border-style: solid;
     flex: 1;
+    height: 100%;
 }
 
 .css-div-search button{
@@ -86,6 +88,8 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
 .css-div-icon-sideBar button{
@@ -93,13 +97,50 @@ p{
     height: 100%;
     width: 100%;
     border: none;
-    flex: 0.5;
+    flex: 0.4;
 }
 
-.css-div-icon-sideBar img{
-    flex: 0.5;
+.css-div-icon-sideBar .css-youtube-logo{
+    flex: 2;
+    height: 100%;
 }
 
 .css-div-icon-sideBar button img{
-    height: 40px;
+    height: 100%;
+}
+
+.css-div-smallChannelPanel{
+    flex: 0.15;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.css-div-notification{
+    display: flex;
+}
+
+.css-notifications-baseImage{
+    position: relative;
+}
+
+.css-div-notifications-count{
+    font-size: 12px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+    width: 10px;
+    position: absolute;
+    top: 5px;
+    right: 72px;
+}
+
+.css-div-voice-search{
+    flex: 0.017;
+    margin-left: -180px;
+}
+
+.css-div-voice-search img{
+    height: 100%;
 }
