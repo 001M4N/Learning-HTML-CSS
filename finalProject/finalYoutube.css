@@ -1,3 +1,7 @@
+body{
+    padding-top: 50px;
+}
+
 p{
     font-size: 15px;
     width: 100%;
@@ -48,6 +52,13 @@ p{
     border-bottom: 1px;
     border-style: sold;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    padding-top: 5px;
+    height: 30px;
 }
 
 .css-div-search{
