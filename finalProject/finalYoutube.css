@@ -141,13 +141,16 @@ p{
 .css-div-notifications-count{
     font-size: 12px;
     color: white;
-    background-color: red;
+    background-color: rgb(190, 7, 7);
     border-radius: 50%;
     border: none;
-    width: 10px;
     position: absolute;
-    top: 5px;
-    right: 72px;
+    top: 2px;
+    right: 71px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .css-div-voice-search{
