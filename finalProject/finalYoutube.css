@@ -1,5 +1,6 @@
 body{
     padding-top: 50px;
+    padding-left: 100px;
 }
 
 p{
@@ -154,4 +155,13 @@ p{
 
 .css-div-voice-search img{
     height: 100%;
+}
+
+.css-sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 41px;
+    width: 100px;
+    background-color: white;
 }
