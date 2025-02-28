@@ -161,11 +161,12 @@ p{
 
 .css-div-notification{
     display: flex;
-}
-
-.css-notifications-baseImage{
     position: relative;
 }
+
+/* .css-notifications-baseImage{
+    
+} */
 
 .css-account-image{
     height: 100%;
@@ -179,8 +180,8 @@ p{
     border-radius: 50%;
     border: none;
     position: absolute;
-    top: 2px;
-    right: 71px;
+    top: 0px;
+    right: -1px;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 1px;
