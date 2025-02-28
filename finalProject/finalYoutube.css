@@ -17,6 +17,28 @@ p{
     margin-right: 20px;
 }
 
+@media (max-width: 500px)
+{
+    .css-div-video-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 500px) and (max-width:1000px)
+{
+    .css-div-video-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1001px)
+{
+    .css-div-video-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
 /* .css-div-video-preview{
     
 } */
