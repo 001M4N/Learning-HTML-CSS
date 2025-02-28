@@ -84,19 +84,20 @@ p{
     height: 100%;
 }
 
-.css-div-search button{
+.css-div-search div button{
     border-color: gray;
     border-style: solid;
     cursor: pointer;
     transition: background-color 0.15s;
     flex: 0.07;
+    height: 100%;
 }
 
-.css-div-search button:active{
+.css-div-search div button:active{
     background-color: gray;
 }
 
-.css-div-search button img{
+.css-div-search div button img{
     height: 100%;
 }
 
@@ -225,4 +226,24 @@ p{
     background-color: rgba(223, 211, 211, 0.822);
     width: 20px;
     z-index: 200;
+}
+
+.css-search-butt{
+    position: relative;
+}
+
+.css-search-butt-tooltip{
+    position: absolute;
+    background-color: rgb(204, 204, 204);
+    bottom: -20px;
+    right: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+.css-search-butt:hover .css-search-butt-tooltip{
+    opacity: 1;
 }
